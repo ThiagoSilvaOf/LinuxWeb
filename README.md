@@ -1,17 +1,17 @@
-## Running React on Repl.it
+Meu Incrível Website com React.js <br>
+Este é um projeto de website desenvolvido com React.js, seguindo as melhores práticas e conceitos modernos. Vamos dar uma olhada nas principais características:
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Conceito de Mobile First <br>
+O design deste website foi criado com o princípio do Mobile First em mente. Isso significa que a experiência do usuário em dispositivos móveis foi priorizada desde o início. O layout é responsivo e se adapta perfeitamente a telas de diferentes tamanhos.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Styled Components <br>
+Para estilização, utilizamos a biblioteca Styled Components. Essa abordagem nos permite escrever estilos diretamente no código JavaScript, tornando o processo mais modular e fácil de manter. Além disso, os componentes estilizados são reutilizáveis e altamente legíveis.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Tailwind CSS <br>
+O Tailwind CSS é uma ferramenta poderosa para criação de estilos. Ele oferece uma abordagem utilitária, onde você pode aplicar classes diretamente no HTML para estilizar seus elementos. Com o Tailwind, é possível criar designs consistentes e personalizados de forma eficiente.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Como Rodar o Projeto <br>
+Clone este repositório para o seu ambiente local. <br>
+Execute npm install para instalar as dependências. <br>
+Execute npm start para iniciar o servidor de desenvolvimento. <br>
+Acesse o website em http://localhost:3000. <br>
