@@ -1,0 +1,25 @@
+.footerContainer{
+  display:flex;
+  justify-content: space-evenly;
+  background-color:#4176CB;
+  padding-block:16px;
+  box-shadow:1px 1px 5px #182336;
+}
+
+.footerContainer a{
+  cursor:pointer;
+  font-weight:bold;
+  margin-left:12px;
+}
+
+@media (min-width:600px){
+  .footerContainer{
+    justify-content: start;
+  }
+
+  .footerContainer a{
+    font-size:18px;
+    margin-left:80px;
+  }
+  
+}

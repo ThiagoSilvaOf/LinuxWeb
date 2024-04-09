@@ -1,0 +1,56 @@
+.formGrid{
+  display:grid;
+  justify-items: start;
+  grid-template-areas:
+    "nome"
+    "email"
+    "celular"
+    "mensagem";
+}
+
+.formGrid input::placeholder, textarea::placeholder{
+  padding-left:8px; 
+}
+
+.formGrid input:focus, textarea:focus{
+  border-color: darkblue; 
+  outline: none;
+}
+
+.nome{
+  grid-area: nome;
+  width: 100%; 
+}
+
+.email{
+  grid-area: email;
+  width: 100%; 
+}
+
+.celular{
+  grid-area: celular;
+  width: 100%; 
+}
+
+.mensagem{
+  grid-area: mensagem;
+  width: 100%; 
+}
+
+.mensagem input{
+  height:140px;
+}
+
+
+@media (min-width:960px){
+  .formGrid{
+    grid-template-areas:
+    "nome nome nome"
+    "email email celular"
+    "mensagem mensagem mensagem";
+  }
+
+  .btn{
+    grid-column:1/4;
+  }
+}

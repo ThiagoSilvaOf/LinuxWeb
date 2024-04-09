@@ -1,0 +1,46 @@
+.boxHeader{
+  top:0;
+  position:sticky;
+  display:flex;
+  justify-content:space-between;
+  padding-block:10px;
+  background-color:#4176CB;
+  box-shadow:1px 1px 5px #182336;
+}
+
+.identityContainer {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-left:14px;
+}
+
+.identityContainer p, a{
+  font-size:18px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.containerAccessMenu{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin-right:14px;
+}
+
+.containerAccessMenu svg:hover{
+  background-color:#1c68e3;
+  border-radius:50%;
+}
+
+.menuNavigation{
+  display:none;
+  margin-left:24px;
+  gap:24px;
+}
+
+@media (min-width: 960px){
+  .menuNavigation{
+    display:flex;
+  }
+}

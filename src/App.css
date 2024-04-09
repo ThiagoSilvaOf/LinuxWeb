@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Roboto;
+}
+
+/* .backgroundContainer{
+  background-image: url("https://t.ctcdn.com.br/CUDCJzALg79-tw1Gd_50-01Uqr4=/2000x1125/smart/i820755.jpeg");
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  padding: 288px 16px;
+}
+
+.boxLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block:20px;
+  max-width:800px;
+  margin:0 auto;
+  border-radius: 8px;
+  background-color:#ffffff;
+  box-shadow: -2px -1px 11px -4px rgba(0,0,0,0.77);
+}
+
+.boxLink h1{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.boxLink button{
+  font-weight: bold;
+  text-transform:uppercase;
+  background-color:#4F84D8;
+  margin-block: 20px;
+  border: 2px solid #0044b3;
+  border-radius: 8px;
+  padding: 10px 20px;
+}*/
+
+@media (min-width: 600px){
+  .boxLink h1{
+    font-size: 36px !important;
+  }
+
+  .boxLink button{
+    padding: 20px 40px !important;
+  }
+} 
